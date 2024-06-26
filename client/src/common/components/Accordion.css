@@ -1,0 +1,34 @@
+.accordion {
+    box-shadow: none;
+}
+
+.accordion__summary {
+    flex-direction: row-reverse;
+    gap: 24px;
+    min-height: auto;
+    box-shadow: none;
+    margin: 0;
+    border-radius: 0;
+}
+
+
+.accordion__summary .MuiAccordionSummary-content {
+    margin: 0;
+    padding: 0;
+}
+
+.accordion__summary .MuiAccordionSummary-content.Mui-expanded {
+    margin: 0
+}
+
+.accordion__outer {
+    padding: 24px 0;
+}
+
+.accordion__inner {
+    padding: 24px 72px 24px 56px;
+}
+
+.accordion__details {
+    padding: 0;
+}

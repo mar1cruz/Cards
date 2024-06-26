@@ -1,0 +1,46 @@
+.photo__body {
+    position: relative;
+    min-height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.photo__wrapper {
+    padding: 32px 0 !important;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 42px;
+    justify-content: center;
+}
+
+.photo__body img {
+    border-radius: 4px;
+    display: block;
+}
+
+.button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: white;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    padding: 0;
+
+    &:hover {
+        background: #3e87a0;
+    }
+}
+
+
+
+.description {
+    margin-top: 12px;
+    color: #787878;
+    font-size: 14px;
+    line-height: 150%;
+}

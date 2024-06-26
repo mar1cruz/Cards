@@ -1,0 +1,28 @@
+.empty__body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 206px;
+}
+
+.empty__image {
+  display: block;
+  max-width: 264px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.empty__title {
+  color: #1C1C1C;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 8px;
+}
+
+.empty__text {
+  color: #1C1C1C;
+  font-size: 18px;
+  line-height: 130%;
+}

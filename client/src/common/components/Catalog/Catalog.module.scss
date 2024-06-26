@@ -1,0 +1,13 @@
+.body {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+}
+
+.name {
+  color: var(--3, #1C1C1C);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 130%;
+}
