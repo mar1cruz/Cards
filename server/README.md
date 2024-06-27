@@ -7,7 +7,7 @@ API для тестового задания
 ### Клонируем репозитарий
 
 ```
-git clone git@github.com:Tozix/revisor-test-api.git
+git clone git@github.com
 
 ```
 
